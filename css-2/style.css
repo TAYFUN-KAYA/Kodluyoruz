@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#Baslik{
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#subtitle{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#subtitle .yan{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#koll{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.veri{
+    display: block;
+}
+
+.veri:before{
+    content: "•";
+    vertical-align: top;
+    margin-right: 10px;
+  }
+
+#listt.nostyle{
+    
+        list-style-type: none;
+    
+}
